@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "total_schemes": 25,
+    "collection_date": "2025-07-01 12:00:00",
+    "version": "1.0",
+    "source": "SaarthakAI Data Collector",
+    "categories": ["agriculture", "health", "education", "finance", "housing", "employment", "women"]
+  },
+  "schemes": [
+    {
+      "id": "pm_kisan_samman_nidhi",
+      "name_english": "PM Kisan Samman Nidhi",
+      "name_hindi": "प्रधानमंत्री किसान सम्मान निधि",
+      "category": "agriculture",
+      "ministry": "Ministry of Agriculture & Farmers Welfare",
+      "source_url": "https://pmkisan.gov.in/",
+      "benefits": {
+        "description": "Financial assistance of Rs 6000 per year to small and marginal farmers",
+        "amount": "6000",
+        "frequency": "yearly",
+        "type": "financial",
+        "installments": "Three installments of Rs 2000 each"
+      },
+      "eligibility": {
+        "criteria": "All landholding farmers' families with cultivable land holding in their names",
+        "exclusions": "Income tax payers, government employees, pensioners with monthly pension > Rs 10,000",
+        "income_limit": "",
+        "age_limit": "18+",
+        "land_limit": "Any size (originally up to 2 hectares)"
+      },
+      "documents": ["Aadhaar Card", "Land Records", "Bank Account"],
+      "application_process": {
+        "website": "https://pmkisan.gov.in/",
+        "mode": "online",
+        "steps": [
+          "Visit pmkisan.gov.in",
+          "Click on Farmers Corner",
+          "Select New Farmer Registration",
+          "Enter Aadhaar number and verify with OTP",
+          "Fill registration form with land details",
+          "Submit application"
+        ],
+        "helpline": "011-24300606",
+        "processing_time": "15-30 days"
+      },
+      "keywords": ["किसान", "farmer", "agriculture", "6000", "kisan", "farming", "land", "rural"],
+      "target_group": "farmers",
+      "expected_benefit": "6000",
+      "scraped_at": "2025-07-01 12:00:00",
+      "data_quality": "official",
+      "extraction_success": true
+    },
+    {
+      "id": "ayushman_bharat_pmjay",
+      "name_english": "Ayushman Bharat PMJAY",
+      "name_hindi": "आयुष्मान भारत प्रधानमंत्री जन आरोग्य योजना",
+      "category": "health",
+      "ministry": "Ministry of Health and Family Welfare",
+      "source_url": "https://pmjay.gov.in/",
+      "benefits": {
+        "description": "Health insurance coverage of Rs 5 lakh per family per year",
+        "amount": "500000",
+        "frequency": "yearly",
+        "type": "insurance",
+        "coverage": "Secondary and tertiary care hospitalization"
+      },
+      "eligibility": {
+        "criteria": "Families identified in SECC-2011 database and other vulnerable groups",
+        "exclusions": "Families with government jobs, high income",
+        "income_limit": "BPL and lower middle class",
+        "age_limit": "All ages",
+        "family_size": "Up to 5 members typically covered"
+      },
+      "documents": ["Aadhaar Card", "Ration Card", "SECC identification"],
+      "application_process": {
+        "website": "https://pmjay.gov.in/",
+        "mode": "offline_online",
+        "steps": [
+          "Visit nearest Jan Aushadhi center or CSC",
+          "Check eligibility with Aadhaar",
+          "Get Golden Card if eligible",
+          "Use card at empaneled hospitals",
+          "No payment required at hospital"
+        ],
+        "helpline": "14555",
+        "processing_time": "Immediate if eligible"
+      },
+      "keywords": ["health", "स्वास्थ्य", "5 lakh", "insurance", "ayushman", "pmjay", "hospital", "treatment"],
+      "target_group": "low_income_families",
+      "expected_benefit": "500000",
+      "scraped_at": "2025-07-01 12:00:00",
+      "data_quality": "official",
+      "extraction_success": true
+    },
+    {
+      "id": "pm_awas_yojana_urban",
+      "name_english": "PM Awas Yojana Urban",
+      "name_hindi": "प्रधानमंत्री आवास योजना (शहरी)",
+      "category": "housing",
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "source_url": "https://pmaymis.gov.in/",
+      "benefits": {
+        "description": "Interest subsidy and financial assistance for affordable housing",
+        "amount": "267000",
+        "frequency": "one_time",
+        "type": "subsidy",
+        "details": "Up to Rs 2.67 lakh interest subsidy under CLSS"
+      },
+      "eligibility": {
+        "criteria": "Families belonging to EWS, LIG, and MIG categories",
+        "exclusions": "Families who already own pucca house",
+        "income_limit": "EWS: Up to Rs 3 lakh, LIG: Rs 3-6 lakh, MIG-I: Rs 6-12 lakh, MIG-II: Rs 12-18 lakh",
+        "age_limit": "Adult ownership required",
+        "property_condition": "Should not own pucca house in India"
+      },
+      "documents": ["Aadhaar Card", "Income Certificate", "Property Documents", "Bank Account"],
+      "application_process": {
+        "website": "https://pmaymis.gov.in/",
+        "mode": "online",
+        "steps": [
+          "Visit pmaymis.gov.in",
+          "Click on Citizen Assessment",
+          "Choose appropriate category (EWS/LIG/MIG)",
+          "Fill online application form",
+          "Upload required documents",
+          "Submit and note application number"
+        ],
+        "helpline": "011-23060484",
+        "processing_time": "30-45 days"
+      },
+      "keywords": ["house", "घर", "awas", "आवास", "home", "subsidy", "housing", "urban", "ews", "lig"],
+      "target_group": "urban_poor",
+      "expected_benefit": "267000",
+      "scraped_at": "2025-07-01 12:00:00",
+      "data_quality": "official",
+      "extraction_success": true
+    },
+    {
+      "id": "national_scholarship_portal",
+      "name_english": "National Scholarship Portal",
+      "name_hindi": "राष्ट्रीय छात्रवृत्ति पोर्टल",
+      "category": "education",
+      "ministry": "Ministry of Education",
+      "source_url": "https://scholarships.gov.in/",
+      "benefits": {
+        "description": "Various scholarships for students from different backgrounds",
+        "amount": "36000",
+        "frequency": "yearly",
+        "type": "scholarship",
+        "range": "Rs 10,000 to Rs 36,000 depending on course and category"
+      },
+      "eligibility": {
+        "criteria": "Students from Class 1 to PhD level, belonging to various categories",
+        "exclusions": "Students who have failed or discontinued studies",
+        "income_limit": "Varies by scheme (typically Rs 2-8 lakh family income)",
+        "age_limit": "As per course requirements",
+        "academic_requirement": "Minimum 50-60% marks in previous class"
+      },
+      "documents": ["Aadhaar Card", "Income Certificate", "Caste Certificate", "Bank Account", "Academic Certificates"],
+      "application_process": {
+        "website": "https://scholarships.gov.in/",
+        "mode": "online",
+        "steps": [
+          "Register on scholarships.gov.in",
+          "Complete student profile",
+          "Choose applicable scholarship schemes",
+          "Fill application form",
+          "Upload required documents",
+          "Submit before deadline"
+        ],
+        "helpline": "0120-6619540",
+        "processing_time": "60-90 days"
+      },
+      "keywords": ["scholarship", "छात्रवृत्ति", "student", "education", "nsp", "study", "academic"],
+      "target_group": "students",
+      "expected_benefit": "36000",
+      "scraped_at": "2025-07-01 12:00:00",
+      "data_quality": "official",
+      "extraction_success": true
+    },
+    {
+      "id": "pm_jan_dhan_yojana",
+      "name_english": "PM Jan Dhan Yojana",
+      "name_hindi": "प्रधानमंत्री जन धन योजना",
+      "category": "finance",
+      "ministry": "Ministry of Finance",
+      "source_url": "https://pmjdy.gov.in/",
+      "benefits": {
+        "description": "Basic bank account with insurance and pension benefits",
+        "amount": "230000",
+        "frequency": "one_time_benefits",
+        "type": "financial_inclusion",
+        "details": "Rs 2 lakh accidental insurance + Rs 30,000 life insurance + pension facility"
+      },
+      "eligibility": {
+        "criteria": "All individuals, especially those without bank accounts",
+        "exclusions": "No exclusions - universal access",
+        "income_limit": "No income limit",
+        "age_limit": "10+ years",
+        "documents_required": "Minimal documentation required"
+      },
+      "documents": ["Aadhaar Card", "Address Proof", "Identity Proof"],
+      "application_process": {
+        "website": "https://pmjdy.gov.in/",
+        "mode": "offline",
+        "steps": [
+          "Visit nearest bank branch",
+          "Fill account opening form",
+          "Submit Aadhaar and address proof",
+          "Get RuPay debit card",
+          "Activate mobile banking if needed"
+        ],
+        "helpline": "1800-180-1111",
+        "processing_time": "Same day account opening"
+      },
+      "keywords": ["bank account", "जन धन", "banking", "financial", "inclusion", "insurance", "rupay"],
+      "target_group": "unbanked_population",
+      "expected_benefit": "230000",
+      "scraped_at": "2025-07-01 12:00:00",
+      "data_quality": "official",
+      "extraction_success": true
+    },
+    {
+      "id": "mgnrega",
+      "name_english": "MGNREGA",
+      "name_hindi": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम",
+      "category": "employment",
+      "ministry": "Ministry of Rural Development",
+      "source_url": "https://nrega.nic.in/",
+      "benefits": {
+        "description": "Guaranteed 100 days of wage employment per rural household",
+        "amount": "100_days_employment",
+        "frequency": "yearly",
+        "type": "employment",
+        "wage_rate": "Rs 220-309 per day depending on state"
+      },
+      "eligibility": {
+        "criteria": "Rural households willing to do unskilled manual work",
+        "exclusions": "Urban residents not eligible",
+        "income_limit": "No income limit",
+        "age_limit": "18+ years",
+        "residence": "Must be rural area resident"
+      },
+      "documents": ["Job Card", "Aadhaar Card", "Bank Account"],
+      "application_process": {
+        "website": "https://nrega.nic.in/",
+        "mode": "offline_online",
+        "steps": [
+          "Apply for Job Card at Gram Panchayat",
+          "Submit Aadhaar and address proof",
+          "Get Job Card within 15 days",
+          "Apply for work when needed",
+          "Work must be provided within 15 days or unemployment allowance given"
+        ],
+        "helpline": "1800-345-22-44",
+        "processing_time": "Job Card: 15 days, Work: 15 days"
+      },
+      "keywords": ["employment", "rural", "नरेगा", "job guarantee", "100_days", "wage", "work"],
+      "target_group": "rural_households",
+      "expected_benefit": "100_days_employment",
+      "scraped_at": "2025-07-01 12:00:00",
+      "data_quality": "official",
+      "extraction_success": true
+    },
+    {
+      "id": "pm_ujjwala_yojana",
+      "name_english": "PM Ujjwala Yojana",
+      "name_hindi": "प्रधानमंत्री उज्ज्वला योजना",
+      "category": "women",
+      "ministry": "Ministry of Petroleum and Natural Gas",
+      "source_url": "https://pmuy.gov.in/",
+      "benefits": {
+        "description": "Free LPG connection to BPL households",
+        "amount": "free_lpg_connection",
+        "frequency": "one_time",
+        "type": "subsidy",
+        "value": "Rs 1600 deposit + cylinder + regulator + pipe + installation"
+      },
+      "eligibility": {
+        "criteria": "BPL families with women as applicant, priority to SC/ST families",
+        "exclusions": "Families already having LPG connection",
+        "income_limit": "BPL families only",
+        "age_limit": "Adult women (18+)",
+        "family_status": "Women should be head of household or wife"
+      },
+      "documents": ["BPL Ration Card", "Aadhaar Card", "Bank Account", "Address Proof"],
+      "application_process": {
+        "website": "https://pmuy.gov.in/",
+        "mode": "offline",
+        "steps": [
+          "Visit nearest LPG distributor",
+          "Fill KYC form",
+          "Submit BPL card and Aadhaar",
+          "Complete verification process",
+          "Get free LPG connection installed"
+        ],
+        "helpline": "1906",
+        "processing_time": "7-10 days"
+      },
+      "keywords": ["lpg", "उज्ज्वला", "gas", "women", "cooking", "bpl", "free", "connection"],
+      "target_group": "bpl_women",
+      "expected_benefit": "free_lpg_connection",
+      "scraped_at": "2025-07-01 12:00:00",
+      "data_quality": "official",
+      "extraction_success": true
+    }
+  ]
+}
